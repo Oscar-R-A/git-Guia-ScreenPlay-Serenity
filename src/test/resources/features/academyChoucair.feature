@@ -8,7 +8,15 @@ Característica: Academia Choucair
   @Escenario1
   Escenario: Buscar el curso de automatizacion
     Dado que Oscar quiere aprender automatizacion en la academia de Choucair
-    Cuando Oscar busca el curso Recursos Automatizacion Bancolombia en la plataforma de la academia Choucair
-    Entonces Oscar encuentra los cursos llamados recursos Recursos de Automatizacion Bancolombia
+    | strUser   | strPassword |
+    | tuUsuario | tuClave     |
 
+    Cuando Oscar busca el curso Recursos en la plataforma de la academia Choucair
+    | strCourse               |
+    | Metodología Bancolombia |
+
+    Entonces Oscar encuentra los cursos llamados recursos
+
+    |  strCourse            |
+    |Metodología Bancolombia|
 
