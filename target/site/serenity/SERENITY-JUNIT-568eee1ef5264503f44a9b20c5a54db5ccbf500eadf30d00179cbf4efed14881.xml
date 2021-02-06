@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="UTest" skipped="0" tests="1" time="28.04" timestamp="2021-02-06 01:51:29"><testcase name="Crear un nuevo usuario"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.choucair.certification.proyectobase.tasks.LastStep.performAs(LastStep.java:28)&#13;
+co.com.choucair.certification.proyectobase.stepdefinitions.UTestSpectDefinitions.Oscarcompleteelformularioderegistro(UTestSpectDefinitions.java:40)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

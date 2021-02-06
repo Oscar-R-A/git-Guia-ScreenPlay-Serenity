@@ -1,6 +1,7 @@
 package co.com.choucair.certification.proyectobase.questions;
 
-import co.com.choucair.certification.proyectobase.userinterface.SearchCoursePage;
+import co.com.choucair.certification.proyectobase.tasks.LastStep;
+import co.com.choucair.certification.proyectobase.userinterface.UTestSingUp4;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -18,8 +19,8 @@ public class Answer implements Question <Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         boolean result;
-        String nameCourse = Text.of(SearchCoursePage.NAME_COURSE).viewedBy(actor).asString();
-        if (question.equals(nameCourse)){
+        String login = Text.of(UTestSingUp4.VALIDATE_LOGIN).viewedBy(actor).asString();
+        if (question.equals(login)){
             result = true;
         }else {
             result = false;
